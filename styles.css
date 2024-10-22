@@ -1,0 +1,95 @@
+/* 기본 스타일 설정 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;     /* 세로 방향으로 정렬 */
+    align-items: center;        /* 가운데 정렬 */
+    min-height: 100vh;         /* 최소 높이를 100%로 설정 */
+}
+
+/* 헤더 스타일 */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    flex: 0 1 auto;            /* 헤더의 크기 조정 */
+    width: 100%;               /* 헤더의 너비를 100%로 설정 */
+}
+
+/* 네비게이션 리스트 스타일 */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* 섹션 스타일 */
+section {
+    padding: 20px;
+    margin: 20px 0;           /* 상하 마진 조정 */
+    max-width: 800px;         /* 최대 너비 설정 */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;              /* 섹션 너비를 100%로 설정 */
+    display: flex;            /* 플렉스 박스 사용 */
+    flex-direction: column;   /* 수직 방향으로 정렬 */
+    align-items: center;      /* 가운데 정렬 */
+}
+
+/* 소개 섹션의 내용 */
+.intro-content {
+    display: flex;            /* 가로 방향으로 정렬 */
+    align-items: center;      /* 세로 방향 가운데 정렬 */
+    width: 100%;              /* 전체 너비 사용 */
+}
+
+/* 소개 섹션의 이미지 스타일 */
+.intro-image {
+    width: 300px;            /* 원하는 이미지 너비 */
+    height: auto;            /* 비율 유지 */
+    border-radius: 8px;      /* 모서리 둥글게 처리 */
+    margin-left: 20px;       /* 이미지와 글 사이 여백 */
+}
+
+/* 제목 스타일 */
+h2 {
+    color: #34495e;
+}
+
+/* 푸터 스타일 */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;              /* 푸터의 너비를 100%로 설정 */
+}
+
+/* 버튼 스타일 */
+button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
